@@ -14,6 +14,7 @@ namespace Bakers_FirstChoice
 {
     public partial class Bill : Form
     {
+        // billing page
         string cs = ConfigurationManager.ConnectionStrings["MyDefaultConnection"].ConnectionString;
         SqlConnection con;
         SqlCommand cmd;
