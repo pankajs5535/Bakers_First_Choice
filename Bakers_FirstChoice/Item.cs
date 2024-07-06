@@ -20,6 +20,7 @@ namespace Bakers_FirstChoice
 
     public partial class Item : Form
     {
+        // Date time and username added
         private string userName;
         private string cs = ConfigurationManager.ConnectionStrings["MyDefaultConnection"].ConnectionString;
         private SqlConnection con;
